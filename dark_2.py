@@ -102,7 +102,7 @@ def create_driver():
 
 # Connect to MongoDB
 client = MongoClient(
-    "mongodb+srv://nhan01:nhan01@nhandata.we3pawh.mongodb.net/?retryWrites=true&w=majority&appName=nhandata")
+    "_")
 db = client['Bigdata']
 href_collection = db['hrefs_1']
 details_collection = db['details']
